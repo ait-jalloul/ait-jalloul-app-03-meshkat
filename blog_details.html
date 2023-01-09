@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>woodstook</title>
+                     <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                    <!--fontawesome link-->
+    <script src="https://kit.fontawesome.com/a1ca779035.js" crossorigin="anonymous"></script>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+        <!--**************START-header****************-->
+        <div class="header">
+            <div class="container">
+                <div class="row">
+    
+                  <div class="col-img col-md-4 col-sm-12 ">
+                    <a href="index.html"><img src="imgs/logo.png" height="80px"  alt=""></a>
+                      
+                  </div>
+    
+                  <div class="col-search col-md-4 col-sm-12">
+                    <div class="dropdown show">
+                      <a class="btn btn-secondary dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i style="font-size: 30px;" class="fa-solid fa-headset"></i>
+                          Customer Support
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#"><i class="fa-solid fa-at"></i>ait.aitjalloul@gmail.com</a>
+                              <a class="dropdown-item" href="#"><i class="fa-solid fa-phone"></i>00212-607-735-683</a>
+                              <div class="dropdown-divider"></div>
+                              <h6>OR Folow us</h5>
+                              <div class="dropdown-item" >
+                                <div style="list-style: none; display: flex; justify-content: space-around;font-size: 20px;;">
+                                <li><a style="color: gray;" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a style="color: gray;"  href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                                <li><a style="color: gray;"  href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a style="color: gray;"  href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                </div>
+                            </div>
+                              
+                      </div>
+                    </div>
+                      
+                  </div>
+    
+                  <div class="col-md-4 col-sm-12">
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  </div> 
+    
+                </div>
+              </div>
+          </div>
+        <!--**************END-header****************-->
+    
+        <!--**************start-navbar**************-->
+    
+       
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">    
+
+              
+
+            <!--START-Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Welcome to login</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      
+                      <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>                         
+                      </form>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">LOGIN</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- END-Modal -->
+
+                  <!--START Button trigger modal -->
+
+                  <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                    <span style="font-size: 18px; font-weight: 600;">Login</span> 
+                  </button>
+
+                  <!-- END Button trigger modal -->
+
+
+                  <a class="navbar-brand" href="#"></a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+
+              
+                  <li class="nav-item active" style="padding-left: 20px;">
+                    <a class="nav-link" href="index.html" <span class="sr-only">HOME</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SHOP</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          CATEGORIES
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">....</a>
+                        <a class="dropdown-item" href="#">....</a>
+                        <a class="dropdown-item" href="#">....</a>
+                        <a class="dropdown-item" href="#">....</a>
+                        <a class="dropdown-item" href="#">....</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Others</a>
+                        <a class="dropdown-item" href="#">....</a>
+                        <a class="dropdown-item" href="#">....</a>
+                      </div>
+                    </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">THEME FEATURES</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="blog.html">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact_us.html">CONTACT-US</a>
+                </li>     
+                <li class="nav-item">
+                  <a class="nav-link" href="courses.html">COURSES</a>
+              </li>                
+                </ul>
+                
+              </div>
+      </div>
+  </nav>
+<!--**************END-navbar****************-->
+
+
+
+<!--**************START-jumbotron****************-->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="blog.html">BLOG</a></li>
+        <li class="breadcrumb-item active" aria-current="page">blog_details</li>
+      </ol>
+    </nav>
+    <h1 class="display-4">Details</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+<!--**************END-jumbotron****************-->
+
+
+
+<!--**************START-blog_details****************-->
+
+<div class="blog_details">
+    <div class="container">
+        <div class="card" style="padding: 10px;margin-bottom: 50px;">
+            <h5 class="card-title">Card title</h5>
+            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis incidunt itaque est odit dolorem voluptatum deleniti, assumenda consequuntur quae quibusdam velit? Quo provident porro nostrum quibusdam quos illum magnam. Impedit facilis corporis eum! Perferendis id reprehenderit nesciunt soluta veniam, porro aperiam, doloremque laudantium delectus mollitia beatae ex cum nihil dignissimos optio exercitationem, vitae debitis. Non, sapiente exercitationem similique itaque minima consequuntur tenetur eveniet, quidem unde quibusdam laborum delectus reprehenderit neque ullam vero commodi rem! Reprehenderit consequatur eligendi provident, beatae distinctio facilis perferendis accusamus temporibus rem sint animi eum. Hic, quia. Cupiditate autem reiciendis ea amet accusantium ad architecto quia soluta.</p>
+            <img src="imgs/blog-detail-image.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text text-justify">Some quick example Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, facere voluptate quam fugit exercitationem mollitia earum id dolore nobis perspiciatis iusto ab. Ea ex quaerat totam, quo quibusdam harum ipsam labore debitis obcaecati nobis quasi? Dolores perferendis aperiam voluptates nostrum assumenda est eveniet iusto sapiente ea error quas officiis labore sequi ipsum deleniti odio, iste magnam officia minima corrupti ab! Excepturi in dolor, expedita ipsa quo est, veniam perferendis illo, nam consequatur enim culpa. Aspernatur ea aut ratione doloribus. Ut molestiae reiciendis iusto voluptate corporis itaque blanditiis, eos eum iure illo vero quas quod unde dolores voluptas? Autem, repellendus quasi. Facilis iure doloribus beatae vitae delectus nostrum laborum perferendis deleniti, dolores atque officiis deserunt voluptas temporibus est eos, fuga, distinctio natus soluta quibusdam obcaecati nobis amet. Tempora sunt hic soluta ea error odit fuga harum est eaque repudiandae deserunt impedit maxime dolore, ipsa in aliquid voluptatum animi quidem rerum maiores modi perferendis. Ratione soluta magnam ab ex? Error deserunt excepturi sequi atque ut quisquam odio illum dolores molestias omnis fugit blanditiis repellendus placeat doloribus autem reiciendis, consequuntur iste neque quibusdam minima officia accusantium, magnam qui possimus. Aperiam saepe omnis esse autem! Dolorum laboriosam at sapiente neque facilis? Consequuntur perferendis asperiores ex hic eaque velit quos nesciunt similique, reprehenderit facilis, nihil, cupiditate debitis. Incidunt ad unde iure autem aperiam error rem ab esse dolorum facilis illum pariatur numquam, et, consequuntur quos quidem accusamus odit quo sed, voluptates delectus laborum aspernatur. Soluta odio totam exercitationem, cum atque omnis explicabo tenetur ad placeat inventore aliquid nulla perspiciatis deleniti dolorum culpa sapiente maiores eaque? Quod exercitationem eligendi nihil qui mollitia recusandae accusamus aut quaerat facere itaque, voluptatum totam, modi eaque error accusantium enim asperiores iure? Eveniet quasi sapiente cum placeat reprehenderit culpa harum esse nam sunt, exercitationem nesciunt possimus, minus vero nihil laborum voluptatem! text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          
+            <img src="imgs/blog-image-detail-2.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text text-justify">Some quick example Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, facere voluptate quam fugit exercitationem mollitia earum id dolore nobis perspiciatis iusto ab. Ea ex quaerat totam, quo quibusdam harum ipsam labore debitis obcaecati nobis quasi? Dolores perferendis aperiam voluptates nostrum assumenda est eveniet iusto sapiente ea error quas officiis labore sequi ipsum deleniti odio, iste magnam officia minima corrupti ab! Excepturi in dolor, expedita ipsa quo est, veniam perferendis illo, nam consequatur enim culpa. Aspernatur ea aut ratione doloribus. Ut molestiae reiciendis iusto voluptate corporis itaque blanditiis, eos eum iure illo vero quas quod unde dolores voluptas? Autem, repellendus quasi. Facilis iure doloribus beatae vitae delectus nostrum laborum perferendis deleniti, dolores atque officiis deserunt voluptas temporibus est eos, fuga, distinctio natus soluta quibusdam obcaecati nobis amet. Tempora sunt hic soluta ea error odit fuga harum est eaque repudiandae deserunt impedit maxime dolore, ipsa in aliquid voluptatum animi quidem rerum maiores modi perferendis. Ratione soluta magnam ab ex? Error deserunt excepturi sequi atque ut quisquam odio illum dolores molestias omnis fugit blanditiis repellendus placeat doloribus autem reiciendis, consequuntur iste neque quibusdam minima officia accusantium, magnam qui possimus. Aperiam saepe omnis esse autem! Dolorum laboriosam at sapiente neque facilis? Consequuntur perferendis asperiores ex hic eaque velit quos nesciunt similique, reprehenderit facilis, nihil, cupiditate debitis. Incidunt ad unde iure autem aperiam error rem ab esse dolorum facilis illum pariatur numquam, et, consequuntur quos quidem accusamus odit quo sed, voluptates delectus laborum aspernatur. Soluta odio totam exercitationem, cum atque omnis explicabo tenetur ad placeat inventore aliquid nulla perspiciatis deleniti dolorum culpa sapiente maiores eaque? Quod exercitationem eligendi nihil qui mollitia recusandae accusamus aut quaerat facere itaque, voluptatum totam, modi eaque error accusantium enim asperiores iure? Eveniet quasi sapiente cum placeat reprehenderit culpa harum esse nam sunt, exercitationem nesciunt possimus, minus vero nihil laborum voluptatem! text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          
+            <img src="imgs/blog-image-3avif.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text text-justify">Some quick example Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, facere voluptate quam fugit exercitationem mollitia earum id dolore nobis perspiciatis iusto ab. Ea ex quaerat totam, quo quibusdam harum ipsam labore debitis obcaecati nobis quasi? Dolores perferendis aperiam voluptates nostrum assumenda est eveniet iusto sapiente ea error quas officiis labore sequi ipsum deleniti odio, iste magnam officia minima corrupti ab! Excepturi in dolor, expedita ipsa quo est, veniam perferendis illo, nam consequatur enim culpa. Aspernatur ea aut ratione doloribus. Ut molestiae reiciendis iusto voluptate corporis itaque blanditiis, eos eum iure illo vero quas quod unde dolores voluptas? Autem, repellendus quasi. Facilis iure doloribus beatae vitae delectus nostrum laborum perferendis deleniti, dolores atque officiis deserunt voluptas temporibus est eos, fuga, distinctio natus soluta quibusdam obcaecati nobis amet. Tempora sunt hic soluta ea error odit fuga harum est eaque repudiandae deserunt impedit maxime dolore, ipsa in aliquid voluptatum animi quidem rerum maiores modi perferendis. Ratione soluta magnam ab ex? Error deserunt excepturi sequi atque ut quisquam odio illum dolores molestias omnis fugit blanditiis repellendus placeat doloribus autem reiciendis, consequuntur iste neque quibusdam minima officia accusantium, magnam qui possimus. Aperiam saepe omnis esse autem! Dolorum laboriosam at sapiente neque facilis? Consequuntur perferendis asperiores ex hic eaque velit quos nesciunt similique, reprehenderit facilis, nihil, cupiditate debitis. Incidunt ad unde iure autem aperiam error rem ab esse dolorum facilis illum pariatur numquam, et, consequuntur quos quidem accusamus odit quo sed, voluptates delectus laborum aspernatur. Soluta odio totam exercitationem, cum atque omnis explicabo tenetur ad placeat inventore aliquid nulla perspiciatis deleniti dolorum culpa sapiente maiores eaque? Quod exercitationem eligendi nihil qui mollitia recusandae accusamus aut quaerat facere itaque, voluptatum totam, modi eaque error accusantium enim asperiores iure? Eveniet quasi sapiente cum placeat reprehenderit culpa harum esse nam sunt, exercitationem nesciunt possimus, minus vero nihil laborum voluptatem! text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+    </div>
+</div>
+
+<!--**************END-blog_details****************-->
+
+
+<!--**************START-FOOTER**************-->
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="fa-liste col-lg-3 col-sm-6">
+          <div class="logo-footer">
+            <img style="width: 150px;" src="imgs/logo.png" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas ea aliquid eius consequuntur corrupti natus quia aliquam...</p>
+          
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          
+        </div>
+  
+        <div class="list-styl col-lg-3 col-sm-6">
+          <h2>Our company</h2>
+          <ul>
+            <li><a href="#"><strong>></strong> Home</a></li>
+            <li><a href="#"><strong>></strong> Bout Us</a></li>
+            <li><a href="#"><strong>></strong> Workk</a></li>
+            <li><a href="#"><strong>></strong> Price</a></li>
+            <li><a href="#"><strong>></strong> Contact</a></li>
+          </ul>
+          
+        </div>
+        <div class="list-styl col-lg-3 col-sm-6">
+          <h2>Our Works</h2>
+          <ul>
+            <li><a href="#"><strong>></strong> Branding</a></li>
+            <li><a href="#"><strong>></strong> Businsess</a></li>
+            <li><a href="#"><strong>></strong> Marketing</a></li>
+            <li><a href="#"><strong>></strong> Social Media</a></li>
+            <li><a href="#"><strong>></strong> Digital Solution</a></li>
+            <li><a href="#"><strong>></strong> Graphic</a></li>
+          </ul>
+        </div>
+  
+        <div class="list-styl col-lg-3 col-sm-6">
+          <h2>For Client</h2>
+          <ul>
+            <li><a href="#"><strong>></strong> <i class="fa-solid fa-phone"></i> 010-020-0340</a></li>
+            <li><a href="#"><strong>></strong> <i class="fa-solid fa-at"></i> info@company.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="col text-center">
+          <p style="color: white ;padding-top: 10px;">Lorem ipsum dolor sit amet Lorem, ipsum dolor.</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  
+        <!--**************END-FOOTER****************-->
+  
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  </html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>woodstook</title>
+                     <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                    <!--fontawesome link-->
+    <script src="https://kit.fontawesome.com/a1ca779035.js" crossorigin="anonymous"></script>
+                    <!--Animate.css-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="js/wow.js">
+                    <!--MASTER-CSS-->
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <!--**************START-header****************-->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+
+              <div class="col-img col-md-4 col-sm-12 ">
+                <a href="index.html"><img src="imgs/logo.png" height="80px"  alt=""></a>
+                  
+              </div>
+
+              <div class="col-search col-md-4 col-sm-12">
+                <div class="dropdown show">
+                  <a class="btn btn-secondary dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i style="font-size: 30px;" class="fa-solid fa-headset"></i>
+                      Customer Support
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#"><i class="fa-solid fa-at"></i>ait.aitjalloul@gmail.com</a>
+                          <a class="dropdown-item" href="#"><i class="fa-solid fa-phone"></i>00212-607-735-683</a>
+                          <div class="dropdown-divider"></div>
+                          <h6>OR Folow us</h5>
+                          <div class="dropdown-item" >
+                            <div style="list-style: none; display: flex; justify-content: space-around;font-size: 20px;;">
+                            <li><a style="color: gray;" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a style="color: gray;"  href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                            <li><a style="color: gray;"  href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a style="color: gray;"  href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </div>
+                        </div>
+                          
+                  </div>
+                </div>
+                  
+              </div>
+
+              <div class="col-md-4 col-sm-12">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+              </div> 
+
+            </div>
+          </div>
+      </div>
+    <!--**************END-header****************-->
+
+
+
+
+    <!--**************start-navbar**************-->
+    
+       
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">    
+
+                
+
+              <!--START-Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Welcome to login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                          </div>                         
+                        </form>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">LOGIN</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- END-Modal -->
+
+                    <!--START Button trigger modal -->
+
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                      <span style="font-size: 18px; font-weight: 600;">Login</span> 
+                    </button>
+
+                    <!-- END Button trigger modal -->
+
+
+                    <a class="navbar-brand" href="#"></a>
+                      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+
+
+                
+                    <li class="nav-item active" style="padding-left: 20px;">
+                      <a class="nav-link" href="index.html" <span class="sr-only">HOME</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            CATEGORIES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">....</a>
+                          <a class="dropdown-item" href="#">....</a>
+                          <a class="dropdown-item" href="#">....</a>
+                          <a class="dropdown-item" href="#">....</a>
+                          <a class="dropdown-item" href="#">....</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Others</a>
+                          <a class="dropdown-item" href="#">....</a>
+                          <a class="dropdown-item" href="#">....</a>
+                        </div>
+                      </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THEME FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact_us.html">CONTACT-US</a>
+                  </li>                    
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">COURSES</a>
+                </li>                    
+                  </ul>
+                  
+                </div>
+        </div>
+    </nav>
+<!--**************END-navbar****************-->
+
+
+<!--**************start-carousel****************-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" >
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="imgs/slide-2.webp" alt="First slide">
+            <div class="carousel-caption  d-md-block">   
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+                <button type="button" class="btn btn-outline-dark mb-5" style="color: white; border-color: white;">SHOP NOW</button>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imgs/slide-3.webp" alt="Second slide">
+            <div class="carousel-caption  d-md-block"> 
+                
+                    <h5 class="card-title">Success card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+                    <button type="button" class="btn btn-outline-dark mb-5" style="color: white; border-color: white;">SHOP NOW</button>
+                
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imgs/slide-4.webp" alt="Third slide">
+            <div class="carousel-caption  d-md-block">   
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+                <button type="button" class="btn btn-outline-dark mb-5" style="color: white; border-color: white;">SHOP NOW</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="imgs/slide-5.webp" alt="Third slide">
+            <div class="carousel-caption  d-md-block">   
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+                <button type="button" class="btn btn-outline-dark mb-5" style="color: white; border-color: white;">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        
+      </div>
+      
+      <!--**************END-carousel****************-->
+
+
+      <!--**************START-features****************-->
+<div class="features text-center">
+    <div class="container">
+        <h2 class="wow bounceInUp" data-wow-duration="1.5s" data-wow-offset="10">OUR FEATURES</h2>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">
+                <i class="fa-solid fa-ranking-star"></i>
+                <h3>First Quality</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur a culpa reprehenderit esse deleniti ipsam atque molestiae quas repellat nesciunt! adipisicing elit. Vel eveniet, minima cupiditate aperiam quis aspernatur.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="1.5s" data-wow-duration="1.5s" data-wow-offset="10">
+                <i class="fa-solid fa-list-check"></i>
+                <h3>Many Choices</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eveniet, minima cupiditate Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis inventore necessitatibus laboriosam doloribus tempora magnam enim. Et soluta eveniet rerum! aperiam quis aspernatur.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="2s" data-wow-duration="1.5s" data-wow-offset="10">
+                <i class="fa-solid fa-shield"></i>
+                <h3>More Safe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eveniet, minima cupiditate aperiam Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deleniti sapiente maxime harum quis deserunt nemo itaque alias perspiciatis dolorem. quis aspernatur.</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="2.5s" data-wow-duration="1.5s" data-wow-offset="10">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h3>After Sale</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eveniet, minima cupiditate aperiam Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nesciunt doloribus quo nemo facere suscipit sit molestiae ex officiis voluptas! quis aspernatur.</p>
+            </div>
+        </div>      
+    </div>
+</div>
+
+      <!--**************END-features****************-->
+
+
+
+      <!--**************START-OUR-TEAM****************-->
+
+<div class="our-team">
+    <div class="container">
+        <h5 class="h5 text-center wow bounceInUp" data-wow-duration="1.5s" data-wow-offset="10">DIGITAL TEAM</h5>
+        <h1 class="text-center wow bounceInUp"data-wow-delay="0.3s" data-wow-duration="1.5s" data-wow-offset="10">young and talented members</h1>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="0.5s" data-wow-duration="1.5s" data-wow-offset="10">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/member-item-01.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">WHITE CHEESE</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="0.7s" data-wow-duration="1.5s" data-wow-offset="10">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/member-item-02.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">SNOW MARY</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="0.9s" data-wow-duration="1.5s" data-wow-offset="10">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/member-item-03.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">SHAO LYNN</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow bounceInUp"data-wow-delay="1.1s" data-wow-duration="1.5s" data-wow-offset="10">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="imgs/member-item-04.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">CATHERINE PHYU</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <!--**************END-OUR-TEAM****************-->
+
+
+
+      <!--**************END-statistics****************-->
+
+<div class="statistics">
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col">
+                
+                <h3 class="text-center wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">Initial Work</h3>
+                <h2 class="wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">3700</h2>
+                <div class="progress">                   
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <h3 class="text-center wow bounceInUp"data-wow-delay="1.4s" data-wow-duration="1.5s" data-wow-offset="10">Master Planning</h3>
+                <h2 class="wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">2401</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <h3 class="text-center wow bounceInUp"data-wow-delay="1.8s" data-wow-duration="1.5s" data-wow-offset="10">Smooth Execution</h3>
+                <h2 class="wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">4950</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <h3 class="text-center wow bounceInUp"data-wow-delay="2.2s" data-wow-duration="1.5s" data-wow-offset="10">Up-to-date</h3>
+                <h2 class="wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">4800</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <h3 class="text-center wow bounceInUp"data-wow-delay="2.6s" data-wow-duration="1.5s" data-wow-offset="10">Top Notch</h3>
+                <h2 class="wow bounceInUp"data-wow-delay="1s" data-wow-duration="1.5s" data-wow-offset="10">6079</h2>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+      <!--**************END-statistics****************-->
+
+
+      <!--**************START-OUR-CUSTOMERS****************-->
+
+<div class="our-customers">
+    <div class="container" style="margin-top: 200px;margin-bottom: 200px;">
+        <h1 class="text-center wow bounceInUp" data-wow-duration="1s" data-wow-offset="10" style="margin-bottom: 150px;">OUR CUSTOMERS</h1>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="0.5s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/logo-ingelec.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="0.7s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/purep wherpool.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="0.9s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/lg-logo.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="1.1s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/original-samsung-logo-10.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="1.3s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/Valley_Logo.png" alt="" style="width: 100%;">
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 wow bounceInUp"data-wow-delay="1.5s" data-wow-duration="2s" data-wow-offset="10">
+                <img src="imgs/fedex.png" alt="" style="width: 100%;">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+      <!--**************END-OUR-CUSTOMERS****************-->
+
+
+
+      <!--**************END-RECENT-NEWS****************-->
+
+<div class="recent-news">
+    <div class="container">
+        <h1 class="text-center wow bounceInUp" data-wow-duration="1.5s" data-wow-offset="10">New Products</h1>
+        <div class="row">
+            
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="0.5s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-1.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Heat Exchangers</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="1s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-2.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">IGBT Transistors</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="1.5s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Power Supplies</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="2s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-4.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Capacitors</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="2.5s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-5.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Fuses</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 wow bounceInUp"data-wow-delay="3s" data-wow-duration="2s" data-wow-offset="10">
+                <div class="card-deck mb-3">
+                <div class="card">
+                  <img class="card-img-top" src="imgs/banner-6.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Servo Motors</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <!--**************END-RECENT-NEWS****************-->
+
+
+
+
+
+      <!--**************START-FOOTER****************-->
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="fa-liste col-lg-3 col-sm-6">
+        <div class="logo-footer">
+          <img style="width: 150px;" src="imgs/logo.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptas ea aliquid eius consequuntur corrupti natus quia aliquam...</p>
+        
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>   
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        
+      </div>
+
+      <div class="list-styl col-lg-3 col-sm-6">
+        <h2>Our company</h2>
+        <ul>
+          <li><a href="#"><strong>></strong> Home</a></li>
+          <li><a href="#"><strong>></strong> Bout Us</a></li>
+          <li><a href="#"><strong>></strong> Workk</a></li>
+          <li><a href="#"><strong>></strong> Price</a></li>
+          <li><a href="#"><strong>></strong> Contact</a></li>
+        </ul>
+        
+      </div>
+      <div class="list-styl col-lg-3 col-sm-6">
+        <h2>Our Works</h2>
+        <ul>
+          <li><a href="#"><strong>></strong> Branding</a></li>
+          <li><a href="#"><strong>></strong> Businsess</a></li>
+          <li><a href="#"><strong>></strong> Marketing</a></li>
+          <li><a href="#"><strong>></strong> Social Media</a></li>
+          <li><a href="#"><strong>></strong> Digital Solution</a></li>
+          <li><a href="#"><strong>></strong> Graphic</a></li>
+        </ul>
+      </div>
+
+      <div class="list-styl col-lg-3 col-sm-6">
+        <h2>For Client</h2>
+        <ul>
+          <li><a href="#"><strong>></strong> <i class="fa-solid fa-phone"></i> 010-020-0340</a></li>
+          <li><a href="#"><strong>></strong> <i class="fa-solid fa-at"></i> info@company.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="col text-center">
+        <p style="color: white ;padding-top: 10px;">Lorem ipsum dolor sit amet Lorem, ipsum dolor.</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+      <!--**************END-FOOTER****************-->
+
+
+
+      <!--**************WOW.JS****************-->
+<script src="js/wow.js"></script>
+<script>
+new WOW().init();
+</script>
+<!--**************BOOTSTRAP****************-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
